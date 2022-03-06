@@ -3,9 +3,9 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['6281390658325'],
-  ['6282256115584'],
-  ['6281319944687', 'BG', true]
+  ['62882007804496'],
+  ['6283825289775'],
+  ['6283825289775', 'BG', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -30,8 +30,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'wa.me/6285713964963'
-global.author = 'Metro Bot'
+global.packname = 'hello world'
+global.author = 'bot xtreshe'
 
 global.multiplier = 69 // The higher, The harder levelup
 
@@ -64,7 +64,7 @@ global.rpg = {
       petFood: '🍖',
       iron: '⛓️',
       gold: '👑',
-      emerald: '💚'
+      emerald: '💵'
     }
     let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
     if (!results.length) return ''
